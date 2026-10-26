@@ -106,25 +106,33 @@ The database consists of 4 normalized relational tables:
 
 ---
 
-## 5. Startup Instructions
+## 5. Setup & Startup Instructions
 
-### Install Dependencies
+### 1. Clone the Repository
+```bash
+git clone https://github.com/mozahidur07/Hotel-Reservation-Management-System.git
+cd Hotel-Reservation-Management-System
+```
+
+### 2. Install Dependencies
 ```bash
 npm install
 ```
 
-### Development Mode (with Vite HMR)
+### 3. Run Development Server (with Vite HMR & Auto DB Init)
 ```bash
 npm run dev
 ```
-Accessible at: `http://localhost:3000`
+> The SQLite database file (`db/hotel.db`), tables, and seed dataset are automatically created and initialized on the first run.  
+> Application URL: **`http://localhost:3000`**
 
-### Production Build & Serve
+### 4. Production Build & Serve (Single Command)
 ```bash
 npm run build
 npm start
 ```
-Accessible at: `http://localhost:3000`
+Application URL: **`http://localhost:3000`**
 
 ---
+
 
