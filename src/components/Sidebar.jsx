@@ -26,7 +26,7 @@ export default function Sidebar({ activeTab, setActiveTab, counts = {} }) {
           <Building2 className="w-5 h-5" />
         </div>
         <div>
-          <h1 className="text-sm font-bold text-slate-800 tracking-tight">Hotel Manager</h1>
+          <h1 className="text-sm font-bold text-slate-800 tracking-tight">Hotel Management</h1>
           <p className="text-[11px] text-slate-400 font-medium">Reservation System</p>
         </div>
       </div>
